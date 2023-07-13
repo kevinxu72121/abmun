@@ -156,7 +156,6 @@ h1:not(.title h1), h2{
 .portrait{
     display:flex;
     gap:2em;
-    height:30em;
     justify-content: center;
 }
 .portrait img{
