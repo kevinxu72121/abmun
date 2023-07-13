@@ -153,10 +153,21 @@ h1:not(.title h1), h2{
 .b-big{
     padding:1em 5em;
 }
-.portrait{
-    display:flex;
-    gap:2em;
-    justify-content: center;
+@media (min-width: 1200px) {
+    .portrait{
+        display:flex;
+        gap:2em;
+        height:30em;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .portrait{
+        display:inline;
+        gap:2em;
+        justify-content: center;
+    }
 }
 .portrait img{
     height:25em;
