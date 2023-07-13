@@ -159,7 +159,7 @@ h1:not(.title h1), h2{
     justify-content: center;
 }
 .portrait img{
-    width:19em;
+    height:25em;
     object-fit: cover;
 }
 .portrait div{
