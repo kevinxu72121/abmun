@@ -164,7 +164,7 @@ h1:not(.title h1), h2{
 
 @media (max-width: 1199px) {
     .portrait{
-        display:inline;
+        display:block;
         gap:2em;
         justify-content: center;
     }
