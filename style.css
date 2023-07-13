@@ -153,7 +153,7 @@ h1:not(.title h1), h2{
 .b-big{
     padding:1em 5em;
 }
-@media (min-width: 1300px) {
+@media (min-width: 1772px) {
     .portrait{
         display:flex;
         gap:2em;
@@ -162,7 +162,7 @@ h1:not(.title h1), h2{
     }
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1771px) {
     .portrait{
         display: block;
         gap:2em;
